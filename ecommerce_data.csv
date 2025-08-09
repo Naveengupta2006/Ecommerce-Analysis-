@@ -1,0 +1,501 @@
+CustomerID,Age,Gender,ProductCategory,PurchaseAmount
+1001,56,Male,Books,3593.1
+1002,46,Female,Electronics,2690.45
+1003,32,Male,Books,3326.13
+1004,25,Male,Clothing,1748.89
+1005,38,Male,Home Decor,3924.03
+1006,56,Male,Electronics,2815.1
+1007,36,Male,Electronics,2477.28
+1008,40,Male,Clothing,4049.01
+1009,28,Male,Home Decor,2295.66
+1010,28,Female,Books,1591.54
+1011,41,Male,Home Decor,1443.37
+1012,53,Male,Clothing,3606.01
+1013,57,Female,Clothing,1719.57
+1014,41,Female,Home Decor,4754.79
+1015,20,Female,Books,918.07
+1016,39,Male,Books,4696.46
+1017,19,Female,Electronics,3211.02
+1018,41,Male,Books,2903.29
+1019,47,Male,Home Decor,2455.08
+1020,55,Male,Clothing,3399.14
+1021,19,Male,Electronics,2962.37
+1022,38,Female,Electronics,4103.3
+1023,50,Female,Clothing,3114.23
+1024,29,Male,Books,3150.3
+1025,39,Male,Clothing,2636.39
+1026,42,Male,Books,2943.05
+1027,44,Female,Clothing,3307.8
+1028,59,Male,Home Decor,1289.83
+1029,45,Male,Books,1651.81
+1030,33,Female,Home Decor,3743.26
+1031,32,Female,Electronics,3170.87
+1032,20,Male,Clothing,2816.02
+1033,54,Female,Electronics,3018.43
+1034,24,Female,Electronics,3347.58
+1035,38,Male,Electronics,2460.24
+1036,26,Female,Electronics,2221.7
+1037,56,Male,Clothing,3195.85
+1038,35,Female,Electronics,2021.63
+1039,21,Male,Clothing,3408.25
+1040,42,Male,Clothing,1297.42
+1041,31,Male,Home Decor,4029.16
+1042,26,Female,Books,3472.6
+1043,43,Male,Books,3256.03
+1044,19,Female,Clothing,3982.69
+1045,37,Male,Home Decor,4665.47
+1046,45,Male,Clothing,4014.37
+1047,24,Female,Clothing,1159.13
+1048,25,Male,Clothing,1720.42
+1049,52,Male,Home Decor,2375.18
+1050,31,Female,Books,3026.09
+1051,34,Male,Home Decor,3517.66
+1052,53,Male,Electronics,2274.26
+1053,57,Male,Home Decor,3186.77
+1054,21,Male,Home Decor,2244.62
+1055,19,Female,Home Decor,2388.48
+1056,23,Female,Home Decor,1593.34
+1057,59,Male,Books,2076.77
+1058,21,Female,Electronics,1648.32
+1059,46,Male,Books,2024.13
+1060,35,Female,Books,4053.64
+1061,43,Male,Home Decor,2050.6
+1062,51,Male,Clothing,5632.38
+1063,27,Male,Clothing,3493.32
+1064,53,Male,Books,3184.84
+1065,31,Male,Books,2141.64
+1066,48,Male,Home Decor,3700.31
+1067,32,Female,Books,2424.36
+1068,25,Male,Home Decor,3122.01
+1069,31,Female,Clothing,5560.08
+1070,40,Male,Clothing,2903.94
+1071,57,Female,Electronics,4149.27
+1072,38,Female,Clothing,2296.82
+1073,33,Female,Books,2965.01
+1074,35,Male,Clothing,4770.8
+1075,41,Male,Home Decor,2373.03
+1076,43,Female,Clothing,4812.45
+1077,42,Male,Electronics,3707.75
+1078,58,Female,Clothing,2437.53
+1079,46,Male,Home Decor,3632.41
+1080,32,Female,Home Decor,3972.55
+1081,18,Female,Books,3621.81
+1082,42,Male,Clothing,1429.78
+1083,24,Female,Home Decor,2272.86
+1084,26,Male,Electronics,2752.48
+1085,41,Female,Books,2925.57
+1086,18,Female,Electronics,3620.67
+1087,25,Male,Clothing,3177.7
+1088,41,Male,Clothing,1664.66
+1089,28,Male,Clothing,3380.2
+1090,34,Female,Books,3610.59
+1091,25,Male,Home Decor,3559.79
+1092,52,Female,Books,4080.78
+1093,52,Female,Electronics,3833.92
+1094,50,Male,Books,3459.18
+1095,22,Male,Electronics,2929.83
+1096,59,Female,Books,1339.04
+1097,56,Female,Home Decor,3429.62
+1098,58,Male,Electronics,3207.69
+1099,45,Male,Clothing,3271.58
+1100,24,Male,Clothing,1723.25
+1101,26,Male,Books,1918.94
+1102,25,Male,Clothing,4053.15
+1103,29,Female,Electronics,2960.44
+1104,51,Female,Clothing,3681.5
+1105,50,Female,Home Decor,3028.32
+1106,40,Female,Home Decor,3029.76
+1107,41,Male,Books,3938.28
+1108,54,Male,Electronics,2483.96
+1109,52,Male,Home Decor,3096.12
+1110,57,Female,Home Decor,2537.72
+1111,39,Female,Electronics,2565.5
+1112,44,Male,Clothing,2690.83
+1113,52,Male,Clothing,3222.13
+1114,18,Female,Books,2521.25
+1115,52,Female,Clothing,4255.76
+1116,54,Male,Electronics,2105.39
+1117,31,Male,Home Decor,2813.13
+1118,20,Female,Clothing,2560.27
+1119,18,Male,Books,4446.98
+1120,22,Male,Clothing,3196.55
+1121,43,Male,Electronics,4031.84
+1122,31,Female,Books,1514.44
+1123,56,Female,Clothing,3267.05
+1124,44,Female,Books,3889.63
+1125,26,Female,Electronics,3082.28
+1126,32,Female,Home Decor,4065.48
+1127,32,Female,Electronics,2482.71
+1128,43,Female,Electronics,4409.35
+1129,59,Male,Electronics,5298.9
+1130,30,Male,Electronics,2637.16
+1131,49,Male,Home Decor,2554.5
+1132,56,Male,Home Decor,4453.38
+1133,49,Male,Books,4579.57
+1134,21,Male,Clothing,2477.14
+1135,47,Male,Home Decor,2579.81
+1136,54,Female,Home Decor,2718.22
+1137,40,Female,Clothing,1655.55
+1138,56,Male,Home Decor,2081.35
+1139,32,Male,Electronics,1995.86
+1140,46,Female,Electronics,2232.2
+1141,53,Male,Clothing,2965.32
+1142,30,Male,Books,3234.21
+1143,49,Female,Books,4550.5
+1144,24,Male,Clothing,2001.65
+1145,39,Female,Clothing,3984.32
+1146,45,Male,Electronics,2786.01
+1147,19,Female,Books,2950.54
+1148,59,Female,Home Decor,3674.82
+1149,23,Female,Electronics,1877.28
+1150,45,Male,Clothing,3382.41
+1151,45,Female,Books,3166.45
+1152,37,Male,Home Decor,3492.45
+1153,47,Male,Home Decor,3289.17
+1154,28,Male,Electronics,5455.3
+1155,45,Male,Books,2362.26
+1156,42,Female,Books,2469.0
+1157,56,Female,Clothing,2376.86
+1158,50,Male,Books,2444.52
+1159,18,Male,Books,2362.61
+1160,44,Female,Electronics,4189.02
+1161,30,Male,Books,4420.5
+1162,58,Female,Home Decor,2429.25
+1163,20,Male,Electronics,2167.64
+1164,56,Male,Electronics,3471.42
+1165,23,Female,Clothing,2447.78
+1166,25,Male,Books,3632.93
+1167,44,Female,Clothing,3202.92
+1168,26,Male,Home Decor,1484.26
+1169,54,Male,Electronics,4547.51
+1170,50,Male,Electronics,4795.88
+1171,59,Female,Electronics,2387.21
+1172,41,Male,Home Decor,2612.3
+1173,32,Male,Home Decor,3285.87
+1174,49,Male,Clothing,3334.46
+1175,49,Male,Clothing,3658.54
+1176,41,Female,Clothing,5010.2
+1177,58,Female,Books,2823.05
+1178,29,Male,Electronics,2201.7
+1179,56,Female,Electronics,1620.68
+1180,19,Male,Clothing,2269.07
+1181,20,Male,Electronics,2966.87
+1182,54,Male,Clothing,4794.56
+1183,34,Female,Books,2482.39
+1184,19,Female,Books,3223.79
+1185,19,Female,Home Decor,2983.58
+1186,45,Female,Books,4188.39
+1187,40,Female,Clothing,5526.93
+1188,54,Female,Books,2469.13
+1189,49,Female,Home Decor,2510.56
+1190,50,Female,Electronics,4044.16
+1191,18,Female,Clothing,3681.89
+1192,36,Male,Electronics,4846.71
+1193,19,Female,Home Decor,3583.93
+1194,43,Female,Home Decor,2640.71
+1195,49,Female,Home Decor,3590.65
+1196,23,Female,Electronics,4108.7
+1197,49,Female,Electronics,3820.48
+1198,21,Female,Electronics,3507.27
+1199,28,Female,Electronics,4066.67
+1200,34,Female,Home Decor,4169.3
+1201,55,Female,Home Decor,4382.16
+1202,41,Female,Clothing,3648.71
+1203,22,Female,Clothing,2832.88
+1204,51,Male,Electronics,3146.71
+1205,23,Male,Books,4206.51
+1206,39,Female,Books,2183.06
+1207,28,Female,Home Decor,3368.67
+1208,33,Male,Home Decor,2606.66
+1209,50,Female,Home Decor,3028.74
+1210,26,Male,Clothing,4278.45
+1211,23,Male,Clothing,3191.1
+1212,33,Male,Home Decor,3046.44
+1213,46,Male,Home Decor,1640.14
+1214,20,Male,Home Decor,3746.25
+1215,37,Female,Books,3645.48
+1216,53,Male,Clothing,5163.25
+1217,36,Female,Books,2692.22
+1218,43,Female,Books,3219.15
+1219,20,Male,Home Decor,3249.38
+1220,36,Male,Home Decor,4577.45
+1221,37,Female,Electronics,2904.7
+1222,49,Male,Electronics,3279.02
+1223,24,Male,Books,3607.9
+1224,58,Female,Clothing,3186.61
+1225,50,Female,Home Decor,2553.57
+1226,57,Male,Home Decor,3194.09
+1227,56,Female,Books,4073.63
+1228,35,Male,Electronics,1973.48
+1229,57,Male,Clothing,3132.97
+1230,18,Male,Electronics,2299.88
+1231,28,Female,Electronics,4195.05
+1232,45,Female,Electronics,1476.81
+1233,42,Female,Electronics,2441.08
+1234,40,Female,Home Decor,3377.21
+1235,48,Female,Home Decor,4565.52
+1236,47,Male,Electronics,2934.25
+1237,59,Male,Clothing,2444.8
+1238,52,Male,Books,4881.16
+1239,24,Male,Clothing,1551.99
+1240,33,Female,Clothing,801.19
+1241,43,Male,Clothing,3440.01
+1242,19,Female,Electronics,2497.95
+1243,18,Male,Home Decor,1978.77
+1244,29,Female,Clothing,3708.36
+1245,22,Female,Electronics,3243.8
+1246,54,Male,Clothing,2435.92
+1247,49,Male,Clothing,1719.7
+1248,26,Male,Electronics,3872.46
+1249,58,Male,Home Decor,3650.2
+1250,52,Female,Home Decor,2900.82
+1251,36,Male,Books,4846.64
+1252,33,Male,Electronics,1929.92
+1253,20,Female,Books,1474.47
+1254,37,Male,Books,2308.09
+1255,41,Male,Books,2954.41
+1256,50,Male,Home Decor,3243.34
+1257,41,Male,Electronics,2758.76
+1258,28,Male,Books,3352.06
+1259,25,Female,Electronics,1748.46
+1260,53,Male,Electronics,4443.76
+1261,55,Male,Home Decor,2917.85
+1262,57,Male,Books,4117.3
+1263,37,Male,Books,3342.73
+1264,52,Male,Electronics,3456.75
+1265,42,Female,Clothing,3569.77
+1266,52,Male,Home Decor,3447.71
+1267,42,Female,Home Decor,3642.72
+1268,46,Female,Home Decor,4329.15
+1269,35,Male,Home Decor,3196.52
+1270,35,Male,Books,3709.0
+1271,19,Male,Books,2910.26
+1272,52,Male,Clothing,4440.12
+1273,33,Female,Home Decor,2323.61
+1274,58,Male,Home Decor,4800.94
+1275,53,Male,Electronics,2959.84
+1276,50,Male,Books,1569.22
+1277,21,Male,Home Decor,3128.1
+1278,50,Male,Clothing,2318.95
+1279,31,Male,Clothing,3840.64
+1280,38,Female,Books,2347.38
+1281,37,Female,Clothing,2553.82
+1282,25,Male,Clothing,1110.46
+1283,24,Male,Books,2547.69
+1284,20,Male,Home Decor,576.12
+1285,34,Female,Home Decor,1416.1
+1286,50,Male,Clothing,3760.41
+1287,29,Female,Clothing,3785.8
+1288,39,Male,Home Decor,3425.46
+1289,39,Male,Books,2033.02
+1290,47,Male,Clothing,2952.29
+1291,55,Male,Electronics,2996.4
+1292,55,Female,Books,1841.64
+1293,25,Female,Clothing,4503.4
+1294,44,Male,Clothing,3877.36
+1295,44,Male,Electronics,2779.04
+1296,51,Female,Electronics,3026.89
+1297,38,Female,Home Decor,3208.38
+1298,47,Female,Books,958.27
+1299,50,Female,Books,2752.82
+1300,45,Male,Home Decor,2318.02
+1301,50,Female,Books,1998.38
+1302,22,Male,Books,2718.9
+1303,36,Female,Books,4797.69
+1304,21,Female,Books,3640.84
+1305,52,Female,Books,2428.82
+1306,34,Female,Electronics,3572.58
+1307,45,Female,Books,4399.36
+1308,47,Male,Electronics,3924.63
+1309,46,Male,Books,3059.63
+1310,23,Female,Home Decor,2353.06
+1311,52,Female,Clothing,3698.22
+1312,58,Male,Electronics,3393.49
+1313,54,Female,Books,3895.19
+1314,41,Female,Home Decor,3635.17
+1315,46,Male,Clothing,4049.55
+1316,48,Female,Electronics,2464.76
+1317,52,Female,Clothing,4317.39
+1318,50,Male,Home Decor,3197.6
+1319,38,Male,Electronics,5075.26
+1320,49,Male,Clothing,2310.81
+1321,40,Female,Books,4735.96
+1322,50,Male,Electronics,3197.91
+1323,20,Male,Clothing,2348.58
+1324,35,Male,Home Decor,2516.11
+1325,42,Male,Home Decor,2679.65
+1326,59,Male,Electronics,3424.17
+1327,48,Male,Clothing,3522.84
+1328,20,Female,Electronics,2426.3
+1329,57,Female,Electronics,2975.65
+1330,41,Male,Clothing,5142.27
+1331,49,Male,Clothing,4727.54
+1332,39,Male,Books,3436.32
+1333,40,Female,Clothing,3038.0
+1334,19,Female,Home Decor,3120.03
+1335,44,Female,Electronics,3613.52
+1336,59,Female,Electronics,1977.21
+1337,19,Female,Home Decor,2742.62
+1338,43,Female,Clothing,1331.42
+1339,34,Female,Home Decor,3399.22
+1340,57,Female,Home Decor,3647.2
+1341,50,Female,Books,2516.81
+1342,26,Male,Home Decor,4573.99
+1343,56,Male,Electronics,1774.23
+1344,46,Male,Home Decor,1535.63
+1345,59,Male,Electronics,3224.45
+1346,43,Female,Electronics,4047.1
+1347,52,Female,Electronics,4683.93
+1348,42,Male,Clothing,2541.12
+1349,41,Female,Books,4078.68
+1350,30,Male,Electronics,2961.49
+1351,24,Female,Electronics,2827.37
+1352,53,Male,Clothing,3883.66
+1353,37,Female,Electronics,3652.32
+1354,18,Female,Home Decor,1423.61
+1355,25,Male,Home Decor,4476.54
+1356,33,Female,Books,4380.09
+1357,31,Male,Electronics,2374.44
+1358,29,Male,Clothing,3395.8
+1359,40,Male,Home Decor,3494.03
+1360,32,Male,Clothing,3260.67
+1361,45,Female,Clothing,2449.69
+1362,51,Female,Home Decor,2328.38
+1363,19,Female,Clothing,2974.45
+1364,49,Male,Home Decor,4172.73
+1365,40,Female,Clothing,3543.6
+1366,39,Male,Home Decor,2629.39
+1367,42,Female,Electronics,3771.7
+1368,39,Female,Books,500.0
+1369,39,Female,Home Decor,4148.77
+1370,59,Male,Home Decor,1260.29
+1371,23,Female,Books,2637.56
+1372,32,Female,Home Decor,1880.33
+1373,54,Male,Home Decor,1705.32
+1374,50,Female,Clothing,4160.83
+1375,25,Male,Books,2532.3
+1376,22,Female,Electronics,3346.5
+1377,56,Male,Home Decor,2953.08
+1378,21,Male,Books,3477.04
+1379,23,Female,Clothing,3076.82
+1380,49,Male,Electronics,1717.01
+1381,47,Male,Books,3996.27
+1382,52,Male,Electronics,2506.24
+1383,57,Male,Electronics,1443.42
+1384,33,Male,Electronics,2571.88
+1385,30,Male,Home Decor,4500.76
+1386,59,Female,Home Decor,3850.22
+1387,47,Male,Clothing,2651.35
+1388,36,Male,Clothing,2650.74
+1389,34,Female,Books,2678.36
+1390,36,Female,Clothing,5076.75
+1391,45,Female,Electronics,3381.94
+1392,43,Female,Electronics,3430.04
+1393,54,Female,Home Decor,4030.28
+1394,43,Female,Electronics,3238.79
+1395,40,Female,Books,2740.96
+1396,26,Male,Electronics,2803.65
+1397,29,Male,Electronics,2928.4
+1398,18,Female,Books,2962.78
+1399,18,Male,Clothing,3727.63
+1400,51,Male,Clothing,3051.95
+1401,49,Male,Books,3732.64
+1402,42,Female,Home Decor,2919.28
+1403,57,Female,Electronics,3078.64
+1404,18,Male,Books,1001.8
+1405,33,Female,Electronics,3916.33
+1406,56,Male,Home Decor,3346.49
+1407,22,Male,Electronics,3998.01
+1408,39,Male,Books,500.0
+1409,46,Male,Electronics,5088.37
+1410,20,Female,Clothing,2860.41
+1411,29,Female,Home Decor,4108.18
+1412,43,Female,Home Decor,1960.09
+1413,33,Male,Home Decor,3612.77
+1414,54,Female,Books,1946.58
+1415,39,Male,Home Decor,2376.23
+1416,46,Female,Clothing,4914.03
+1417,31,Male,Books,2809.32
+1418,45,Male,Clothing,3217.43
+1419,22,Male,Electronics,3870.07
+1420,47,Female,Electronics,3495.68
+1421,22,Female,Electronics,3150.42
+1422,29,Female,Electronics,3364.96
+1423,33,Female,Clothing,5403.42
+1424,43,Male,Books,2942.38
+1425,43,Female,Books,3201.1
+1426,38,Female,Home Decor,4050.65
+1427,56,Male,Clothing,4105.53
+1428,53,Male,Electronics,4187.03
+1429,50,Male,Clothing,3638.73
+1430,47,Female,Home Decor,1857.0
+1431,54,Male,Home Decor,4633.43
+1432,40,Male,Clothing,1853.65
+1433,27,Male,Clothing,3302.64
+1434,22,Female,Clothing,2245.72
+1435,53,Male,Books,2935.86
+1436,51,Female,Electronics,3328.76
+1437,48,Female,Clothing,3321.36
+1438,27,Male,Clothing,3421.92
+1439,36,Male,Clothing,4613.71
+1440,49,Female,Home Decor,3453.53
+1441,18,Male,Home Decor,2755.84
+1442,22,Male,Books,3964.09
+1443,21,Female,Electronics,4189.47
+1444,33,Female,Books,1772.39
+1445,41,Male,Electronics,3597.4
+1446,33,Female,Home Decor,3701.17
+1447,19,Male,Home Decor,2702.44
+1448,45,Male,Home Decor,4375.71
+1449,49,Male,Books,2849.94
+1450,44,Female,Clothing,3125.58
+1451,37,Male,Clothing,2826.93
+1452,41,Male,Home Decor,3015.58
+1453,29,Male,Clothing,1903.72
+1454,52,Female,Clothing,1559.95
+1455,50,Female,Books,4594.51
+1456,50,Female,Electronics,2153.04
+1457,54,Female,Home Decor,2008.61
+1458,29,Female,Home Decor,846.61
+1459,20,Male,Books,2361.04
+1460,18,Female,Books,1676.91
+1461,50,Female,Clothing,4642.02
+1462,57,Female,Home Decor,4009.82
+1463,27,Male,Electronics,2311.85
+1464,46,Female,Books,5252.44
+1465,30,Female,Electronics,3981.77
+1466,29,Male,Electronics,2675.17
+1467,48,Female,Home Decor,500.59
+1468,19,Male,Home Decor,5290.94
+1469,52,Male,Books,1610.43
+1470,40,Male,Home Decor,1354.6
+1471,34,Male,Home Decor,4022.57
+1472,43,Male,Home Decor,5439.75
+1473,25,Female,Electronics,4384.27
+1474,46,Male,Books,3563.91
+1475,43,Male,Clothing,3594.75
+1476,27,Female,Electronics,3853.42
+1477,43,Male,Home Decor,3758.93
+1478,51,Female,Electronics,3281.19
+1479,58,Female,Home Decor,3104.2
+1480,24,Female,Home Decor,2937.41
+1481,21,Male,Electronics,2246.04
+1482,28,Male,Books,2719.32
+1483,46,Male,Home Decor,1307.04
+1484,53,Female,Books,2901.66
+1485,42,Male,Clothing,2011.41
+1486,38,Male,Home Decor,1896.41
+1487,53,Male,Books,3179.89
+1488,27,Female,Books,4392.0
+1489,54,Female,Clothing,3918.32
+1490,26,Male,Books,1429.5
+1491,41,Male,Books,2010.37
+1492,52,Male,Clothing,3940.77
+1493,52,Male,Home Decor,2017.51
+1494,53,Female,Books,2775.37
+1495,35,Female,Books,3550.05
+1496,56,Female,Books,2031.66
+1497,49,Female,Electronics,3105.38
+1498,41,Male,Clothing,1665.97
+1499,40,Male,Electronics,2398.63
+1500,49,Male,Clothing,3319.78
